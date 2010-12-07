@@ -16,23 +16,11 @@ Install the gems:
 bundle install
 ```
 
-This will install Rails 3, sqlite3-ruby gem and Devise 1.4.7.
+This will install Rails 3, neo4j and Devise.
+Start the server:
 
-Rake devise setup task:
+  rails s
 
-```
-rake devise:setup
-```
-
-This will:
-
-* drop any existing database
-* create a new database
-* migrate the database
-* create a default user and admin
-
-Run the server and use the credentials provided by the rake task to sign in and test the application.
-
-## License
+# License
 
 MIT License. Copyright 2010 Plataforma Tecnologia. http://blog.plataformatec.com.br
