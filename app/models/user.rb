@@ -9,6 +9,8 @@ class User < Neo4j::Model
   property :email
   property :password
 
-  index :email
+  index :email, :type => :exact
   index :name
+
+
 end
